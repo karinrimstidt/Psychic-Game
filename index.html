@@ -1,42 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
+	<meta charset="UTF-8">
 	<title>Psychic Game</title>
+	<!--link to stylesheets-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text.css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
-<script type="text/javascript">
 
-//pseudocode:
+<!--this file is for what goes on the screen in general, css is for decorating it, and js is for making calculations-->
 
-//create a header and call it The Psychic Game
-//ask user for a guess on the screen
-//convert it to lowercase and store it
-//randomly pick a letter
-//convert it to lowercase and store it
-//compare user guess to random letter
-//determine if they are the same
-
-//if the same
-//	increment Wins
-//	display to screen: Wow, that's amazing--you ARE a psychic!
-
-//if not the same
-//	decrement Guesses Left
-//	print letters guessed beside words: Your Guesses so far
-
-//count the following:
-//	Guesses Left:9
-// When Guesses Left = 0
-//	increment losses
-//	reset guesses left
-//	print to screen: Try Again
-
-
-
-//use bootstrap and css to make a few changes...opportunity to learn more about homework 2
-
-
-
-</script>
+	<!--h1 goes into it's own row and column-->
+	<div class="col-md-12">
+		<!--create a header and call it The Psychic Game-->
+		<h1>The Psychic Game</h1>
+		</div>
+		<!-- next row is paragraph with space on either side-->
+			<div class="col-lg-3" "col-lg-6">
+				<!--ask user for a guess on the screen-->
+				<p>I'm thinking of a letter. Can you guess what it is?</p>
+				<p>(Type a letter.)</p>
+			</div>
+			<div class="col-lg-3">
+			</div>
+		</div>
+<!--my columns aren't working...argh-->
 </body>
 </html>
